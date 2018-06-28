@@ -3,9 +3,12 @@
 	"version": "2.2.0",
 	"description": "Testing can be a drag. AVA helps you get it done.",
 	"license": "MIT",
-	"repository": "avajs/ava",
+	"repository": "jacob-adams/ava",
 	"homepage": "https://avajs.dev",
-	"bin": "cli.js",
+	"bin": {
+		"ava": "cli.js",
+		"avam": "cli.mjs"
+	},
 	"engines": {
 		"node": ">=8.9.4 <9 || >=10.0.0 <11 || >=12.0.0"
 	},
@@ -18,6 +21,7 @@
 	"files": [
 		"lib",
 		"*.js",
+		"*.mjs",
 		"index.d.ts"
 	],
 	"keywords": [
