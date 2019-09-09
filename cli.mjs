@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 'use strict';
-import cli from './lib/cli'
+import cli from './lib/cli.js'
 
 cli.run();
